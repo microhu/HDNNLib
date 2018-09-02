@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DBN Files">
+      <UniqueIdentifier>{fcbdaad0-6a3f-457b-9e93-730436251d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decode">
+      <UniqueIdentifier>{40934f93-c8ca-41cc-889e-7ad102060b68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basetypes.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cudalattice.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cudamatrix.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbn.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dtnn.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hessianfreetrainer.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixquantization.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="numahelpers.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelrbmmatrix.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pplhelpers.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rbm.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_checked_arrays.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssefloat4.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssematrix.h">
+      <Filter>DBN Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="htkfeatio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HDNNLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\DecisionTreeModel.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\decode.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\hmm.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\LanguageModel.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\MonophoneAlignment.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\MonophoneRecognition.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\phone.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\PPScore.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\state.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\TransGraph.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\TriphoneAlignment.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\TriphoneRecognition.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+    <ClInclude Include="decode\word.h">
+      <Filter>decode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="commonFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HDNNLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\decode.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\hmm.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\LanguageModel.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\MonophoneAlignment.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\MonophoneRecognition.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\phone.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\PPScore.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\state.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\TransGraph.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\TriphoneAlignment.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\TriphoneRecognition.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+    <ClCompile Include="decode\word.cpp">
+      <Filter>decode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

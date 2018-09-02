@@ -1,0 +1,8 @@
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\bin\x64\Debug\HDNNLib_Test.exe.config
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\bin\x64\Debug\HDNNLib_Test.exe
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\bin\x64\Debug\HDNNLib_Test.pdb
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\bin\x64\Debug\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.dll
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\bin\x64\Debug\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.pdb
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\obj\x64\Debug\HDNNLib_Test.csprojResolveAssemblyReference.cache
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\obj\x64\Debug\HDNNLib_Test.exe
+D:\code\HDNNLib\HDNNLib\HDNNLib_Test\obj\x64\Debug\HDNNLib_Test.pdb

@@ -1,0 +1,135 @@
+﻿Build started 4/6/2016 1:59:50 PM.
+     1>Project "D:\code\HDNNLib\HDNNLib\DNN_HMM\DNN_HMM.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D ONLY_SAME_ENDING /D NOMPI /D NOCUDA /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DNN_HMM_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt commonFunc.cpp decode\decode.cpp decode\hmm.cpp decode\LanguageModel.cpp decode\MonophoneAlignment.cpp decode\MonophoneRecognition.cpp decode\phone.cpp decode\PPScore.cpp decode\state.cpp decode\TransGraph.cpp decode\TriphoneAlignment.cpp decode\TriphoneRecognition.cpp decode\word.cpp fileutil.cpp HDNNLib.cpp
+         commonFunc.cpp
+         decode.cpp
+     1>decode\decode.cpp(85): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>decode\decode.cpp(116): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         hmm.cpp
+         LanguageModel.cpp
+     1>decode\LanguageModel.cpp(44): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(841) : see declaration of '_wfopen'
+     1>decode\LanguageModel.cpp(60): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\LanguageModel.cpp(66): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\LanguageModel.cpp(70): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\LanguageModel.cpp(73): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>decode\LanguageModel.cpp(79): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\LanguageModel.cpp(83): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\LanguageModel.cpp(84): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         MonophoneAlignment.cpp
+         MonophoneRecognition.cpp
+         phone.cpp
+     1>decode\phone.cpp(132): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(137): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(144): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(148): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(152): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(156): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(160): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(168): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(171): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(179): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(184): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(189): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(195): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(199): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(203): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(233): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(237): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\phone.cpp(305): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         PPScore.cpp
+     1>decode\PPScore.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>decode\PPScore.cpp(17): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>decode\PPScore.cpp(43): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         state.cpp
+     1>decode\state.cpp(71): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(841) : see declaration of '_wfopen'
+     1>decode\state.cpp(82): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         TransGraph.cpp
+     1>decode\TransGraph.cpp(9): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>decode\TransGraph.cpp(88): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>decode\TransGraph.cpp(103): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>decode\TransGraph.cpp(255): warning C4101: 'pq' : unreferenced local variable
+         TriphoneAlignment.cpp
+     1>decode\TriphoneAlignment.cpp(39): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>decode\TriphoneAlignment.cpp(129): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>decode\TriphoneAlignment.cpp(287): warning C4101: 'i' : unreferenced local variable
+     1>decode\TriphoneAlignment.cpp(287): warning C4101: 'k' : unreferenced local variable
+         TriphoneRecognition.cpp
+         word.cpp
+     1>decode\word.cpp(91): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         fileutil.cpp
+         HDNNLib.cpp
+     1>HDNNLib.cpp(101): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(109): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(111): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(238): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
+     1>HDNNLib.cpp(284): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
+     1>HDNNLib.cpp(331): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(381): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(383): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(443): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(471): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(490): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(606): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(646): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(662): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(701): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(717): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(747): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(777): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HDNNLib.cpp(806): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\HDNNLib\HDNNLib\x64\Release\DNN_HMM.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\HDNNLib\HDNNLib\x64\Release\DNN_HMM.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\HDNNLib\HDNNLib\x64\Release\DNN_HMM.lib" /MACHINE:X64 /DLL x64\Release\commonFunc.obj
+         x64\Release\decode.obj
+         x64\Release\hmm.obj
+         x64\Release\LanguageModel.obj
+         x64\Release\MonophoneAlignment.obj
+         x64\Release\MonophoneRecognition.obj
+         x64\Release\phone.obj
+         x64\Release\PPScore.obj
+         x64\Release\state.obj
+         x64\Release\TransGraph.obj
+         x64\Release\TriphoneAlignment.obj
+         x64\Release\TriphoneRecognition.obj
+         x64\Release\word.obj
+         x64\Release\fileutil.obj
+         x64\Release\HDNNLib.obj
+            Creating library D:\code\HDNNLib\HDNNLib\x64\Release\DNN_HMM.lib and object D:\code\HDNNLib\HDNNLib\x64\Release\DNN_HMM.exp
+         Generating code
+         Finished generating code
+         DNN_HMM.vcxproj -> D:\code\HDNNLib\HDNNLib\x64\Release\DNN_HMM.dll
+     1>Done Building Project "D:\code\HDNNLib\HDNNLib\DNN_HMM\DNN_HMM.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.69

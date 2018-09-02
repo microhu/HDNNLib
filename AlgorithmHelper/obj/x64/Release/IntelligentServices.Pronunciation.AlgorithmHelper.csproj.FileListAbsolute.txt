@@ -1,0 +1,12 @@
+D:\code\IPESpeechCore_Dev\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.dll
+D:\code\IPESpeechCore_Dev\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.pdb
+D:\code\IPESpeechCore_Dev\Evaluator\Oxford\AlgorithmHelper\obj\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.dll
+D:\code\IPESpeechCore_Dev\Evaluator\Oxford\AlgorithmHelper\obj\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.pdb
+D:\code\IPESpeechCore_Dev\Evaluator\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.dll
+D:\code\IPESpeechCore_Dev\Evaluator\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.pdb
+D:\code\IPESpeechCore_Dev\Evaluator\Oxford\AlgorithmHelper\obj\x64\Release\IntelligentServices.Pronunciation.AlgorithmHelper.csprojResolveAssemblyReference.cache
+D:\code\HDNNLib\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.dll
+D:\code\HDNNLib\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.pdb
+D:\code\HDNNLib\HDNNLib\AlgorithmHelper\obj\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.dll
+D:\code\HDNNLib\HDNNLib\AlgorithmHelper\obj\x64\Release\Microsoft.WindowsAzure.IntelligentServices.Pronunciation.AlgorithmHelper.pdb
+D:\code\HDNNLib\HDNNLib\AlgorithmHelper\obj\x64\Release\IntelligentServices.Pronunciation.AlgorithmHelper.csprojResolveAssemblyReference.cache

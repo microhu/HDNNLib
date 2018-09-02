@@ -1,0 +1,33 @@
+﻿Build started 1/26/2016 7:30:30 PM.
+     1>Project "D:\code\HDNNLib\HDNNLib\FeatureExtraction\FeatureExtraction.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W0 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FEATUREEXTRACTION_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt FeatureExtraction.cpp HAudio.c HMath.c HMem.c HParm.c HShell.c HSigP.c HVQ.c HWave.c
+         HWave.c
+         HVQ.c
+         HSigP.c
+         HShell.c
+         HParm.c
+         HMem.c
+         HMath.c
+         HAudio.c
+         FeatureExtraction.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.lib" /MACHINE:X64 /DLL x64\Debug\FeatureExtraction.obj
+         x64\Debug\HAudio.obj
+         x64\Debug\HMath.obj
+         x64\Debug\HMem.obj
+         x64\Debug\HParm.obj
+         x64\Debug\HShell.obj
+         x64\Debug\HSigP.obj
+         x64\Debug\HVQ.obj
+         x64\Debug\HWave.obj
+            Creating library D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.lib and object D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.exp
+         FeatureExtraction.vcxproj -> D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\code\HDNNLib\HDNNLib\x64\Debug\FeatureExtraction.bsc" /n x64\Debug\FeatureExtraction.sbr x64\Debug\HAudio.sbr x64\Debug\HMath.sbr x64\Debug\HMem.sbr x64\Debug\HParm.sbr x64\Debug\HShell.sbr x64\Debug\HSigP.sbr x64\Debug\HVQ.sbr x64\Debug\HWave.sbr
+     1>Done Building Project "D:\code\HDNNLib\HDNNLib\FeatureExtraction\FeatureExtraction.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.95

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="esignal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+	<ClInclude Include="HCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HParm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HShell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HSigP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HVQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HWave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="f0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F0Extraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_f0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HAudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HParm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HShell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HSigP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HVQ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HWave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dp_f0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F0Extraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_cands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_f0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sigproc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

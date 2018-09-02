@@ -1,0 +1,32 @@
+﻿Build started 12/27/2015 5:40:48 PM.
+     1>Project "D:\code\HDNNLib\HDNNLib\FeatureExtraction\FeatureExtraction.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D _USRDLL /D FEATUREEXTRACTION_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHa /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt FeatureExtraction.cpp HAudio.c HMath.c HMem.c HParm.c HShell.c HSigP.c HVQ.c HWave.c
+         FeatureExtraction.cpp
+         HAudio.c
+         HMath.c
+         HMem.c
+         HParm.c
+         HShell.c
+         HSigP.c
+         HVQ.c
+         HWave.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\HDNNLib\HDNNLib\x64\Release\FeatureExtraction.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\HDNNLib\HDNNLib\x64\Release\FeatureExtraction.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\HDNNLib\HDNNLib\x64\Release\FeatureExtraction.lib" /MACHINE:X64 /DLL x64\Release\FeatureExtraction.obj
+         x64\Release\HAudio.obj
+         x64\Release\HMath.obj
+         x64\Release\HMem.obj
+         x64\Release\HParm.obj
+         x64\Release\HShell.obj
+         x64\Release\HSigP.obj
+         x64\Release\HVQ.obj
+         x64\Release\HWave.obj
+            Creating library D:\code\HDNNLib\HDNNLib\x64\Release\FeatureExtraction.lib and object D:\code\HDNNLib\HDNNLib\x64\Release\FeatureExtraction.exp
+         Generating code
+         Finished generating code
+         FeatureExtraction.vcxproj -> D:\code\HDNNLib\HDNNLib\x64\Release\FeatureExtraction.dll
+     1>Done Building Project "D:\code\HDNNLib\HDNNLib\FeatureExtraction\FeatureExtraction.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.82
